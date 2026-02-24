@@ -30,7 +30,7 @@ Each project demonstrates practical experience in data preprocessing, explorator
 - Prediction on new observations
 
 **File:**  
-`Linear Regression Project-2 (Auto Scout Project).ipynb`
+`Linear Regression Project-2 (Auto Scout Project)_Done.ipynb`
 
 ---
 
