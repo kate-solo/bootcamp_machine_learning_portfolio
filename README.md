@@ -2,13 +2,13 @@
 
 This repository contains a collection of machine learning and data analysis projects completed during my professional training and independent study.
 
-Each project demonstrates practical experience in data preprocessing, exploratory analysis, predictive modeling, and performance evaluation using real-world datasets.
+Each project demonstrates practical experience in **data preprocessing, exploratory analysis, predictive modeling, and performance evaluation** using real-world datasets.
 
 ---
 
-## 📌 Projects
+# 📌 Projects
 
-### 1️⃣ CO2 Emissions Prediction (Linear Regression)
+## 1️⃣ CO2 Emissions Prediction (Linear Regression)
 
 - Regularized Linear Regression (Ridge / Lasso)
 - Data preprocessing and normalization
@@ -21,7 +21,7 @@ Each project demonstrates practical experience in data preprocessing, explorator
 
 ---
 
-### 2️⃣ Auto Scout Vehicle Price Prediction
+## 2️⃣ Auto Scout Vehicle Price Prediction
 
 - Vehicle price prediction using regression models
 - Models: Linear, Ridge, Lasso, ElasticNet
@@ -34,7 +34,7 @@ Each project demonstrates practical experience in data preprocessing, explorator
 
 ---
 
-### 3️⃣ Raisin Classification (Logistic Regression)
+## 3️⃣ Raisin Classification (Logistic Regression)
 
 - Binary classification of raisin varieties (Kecimen vs Besni)
 - Comprehensive Exploratory Data Analysis (EDA)
@@ -49,7 +49,36 @@ Each project demonstrates practical experience in data preprocessing, explorator
 
 ---
 
-## 🛠 Tools & Libraries
+## 4️⃣ Adult Income Prediction (Classification Models)
+
+Machine learning classification project predicting whether an individual's income exceeds **$50K per year** based on demographic and employment-related features.
+
+### Key steps in the project
+
+- Data cleaning and preprocessing
+- Handling missing values and categorical encoding
+- Feature scaling using StandardScaler
+- Model training and comparison:
+  - Logistic Regression
+  - K-Nearest Neighbors (KNN)
+  - Support Vector Machine (SVM)
+- Model evaluation using:
+  - Accuracy
+  - Precision / Recall
+  - F1-score
+  - ROC-AUC
+  - Cross-validation
+- Confusion Matrix and ROC Curve analysis
+- Feature importance analysis
+- Final model comparison and selection
+- Model saving for deployment using Joblib
+
+**File:**  
+`Adult Income prediction(Log_Reg - KNN - SVM)_Done.ipynb`
+
+---
+
+# 🛠 Tools & Libraries
 
 - Python
 - Pandas
@@ -57,38 +86,42 @@ Each project demonstrates practical experience in data preprocessing, explorator
 - Scikit-learn
 - Matplotlib
 - Seaborn
+- SHAP
+- Joblib
 - Jupyter Notebook
 
 ---
 
-## 📊 Skills Demonstrated
+# 📊 Skills Demonstrated
 
-- Data preprocessing and cleaning
-- Exploratory Data Analysis (EDA)
-- Feature engineering and selection
-- Regression and classification modeling
-- Cross-validation and hyperparameter tuning
-- Model evaluation and interpretation
-- ROC, Precision-Recall, and performance metrics
-- Feature importance analysis
-- Reproducible ML pipelines
-- GitHub project documentation
-
----
-
-## 🎯 Purpose
-
-This portfolio demonstrates my practical skills in data analysis and machine learning, with a focus on building reliable, interpretable, and well-evaluated predictive models.
-
-It reflects my ability to apply statistical and machine learning techniques to real-world problems, communicate insights effectively, and develop end-to-end analytical solutions.
+- Data preprocessing and cleaning  
+- Exploratory Data Analysis (EDA)  
+- Feature engineering and selection  
+- Regression and classification modeling  
+- Cross-validation and hyperparameter tuning  
+- Model evaluation and interpretation  
+- ROC, Precision-Recall, and performance metrics  
+- Feature importance analysis  
+- SHAP model interpretability  
+- Reproducible ML pipelines  
+- Model saving and deployment preparation  
+- GitHub project documentation  
 
 ---
 
-## 🚀 Future Development
+# 🎯 Purpose
+
+This portfolio demonstrates my practical skills in **data analysis and machine learning**, with a focus on building reliable, interpretable, and well-evaluated predictive models.
+
+It reflects my ability to apply **statistical analysis, machine learning algorithms, and data preprocessing techniques** to real-world datasets while communicating insights clearly and building complete analytical workflows.
+
+---
+
+# 🚀 Future Development
 
 This repository will be continuously expanded with:
 
-- Advanced machine learning models (Random Forest, XGBoost, Neural Networks)
+- Advanced machine learning models (Random Forest, XGBoost, Gradient Boosting)
 - Deep learning projects
 - Time series forecasting
 - Natural Language Processing (NLP) applications
@@ -96,4 +129,4 @@ This repository will be continuously expanded with:
 
 ---
 
-👤 **Author:** Kate  
+👤 **Author:** Kate
