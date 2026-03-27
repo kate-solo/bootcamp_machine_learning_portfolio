@@ -78,6 +78,39 @@ Machine learning classification project predicting whether an individual's incom
 
 ---
 
+## 5️⃣ Handwritten Digit Classification (Model Comparison)
+
+Multi-class classification project focused on recognizing handwritten digits (0–9) using different machine learning algorithms and comparing their performance.
+
+### Key steps in the project
+
+- Data preprocessing and normalization
+- Multi-class classification problem setup
+- Model implementation and comparison:
+  - Support Vector Machine (SVM)
+  - Decision Tree (DT)
+  - Random Forest (RF)
+- Hyperparameter tuning using GridSearchCV
+- Model evaluation using:
+  - Accuracy
+  - Macro F1-score
+  - Confusion Matrix
+  - ROC-AUC (multi-class)
+- Overfitting analysis (train vs test performance)
+- Model comparison and performance visualization
+- Selection of the best-performing model
+
+### Key results
+
+- SVM achieved the highest performance (~99.2% accuracy)
+- Random Forest showed strong and stable performance (~98.5%)
+- Decision Tree showed lower performance due to overfitting
+
+**File:**  
+`Handwritten Digit Classification (SVM - DT - RF)_Done.ipynb`
+
+---
+
 # 🛠 Tools & Libraries
 
 - Python
