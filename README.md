@@ -162,4 +162,55 @@ This repository will be continuously expanded with:
 
 ---
 
+## 6️⃣ Titanic Survival Prediction (Boosting Methods – Capstone Project)
+
+Capstone machine learning project focused on predicting passenger survival on the Titanic dataset using advanced ensemble boosting techniques.
+
+### Key steps in the project
+
+- Data cleaning and preprocessing  
+- Handling missing values (Age, Cabin, Embarked)  
+- Feature engineering:
+  - Title extraction from names  
+  - Family size creation  
+  - Age grouping  
+- Encoding categorical variables  
+- Feature scaling where necessary  
+
+### Models implemented
+
+- Gradient Boosting Classifier  
+- AdaBoost Classifier  
+- XGBoost Classifier  
+
+### Model optimization
+
+- Hyperparameter tuning using GridSearchCV  
+- Cross-validation for robust performance evaluation  
+- Comparison of boosting algorithms  
+
+### Model evaluation
+
+- Accuracy  
+- Precision / Recall  
+- F1-score  
+- ROC-AUC  
+- Confusion Matrix  
+- Cross-validation scores  
+
+### Key results
+
+- Boosting models significantly outperformed baseline models  
+- XGBoost / Gradient Boosting achieved the highest predictive performance  
+- Feature engineering had a strong impact on model accuracy  
+
+### Additional highlights
+
+- Overfitting control through parameter tuning  
+- Model comparison and interpretation  
+- End-to-end ML workflow implementation  
+
+**File:**  
+`Boosting_Methods_Capstone_Project (Titanic Prediction).ipynb`
+
 👤 **Author:** Kate
